@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+.block_6 {
+    margin-top: 136px;
+    border-radius: 20px;
+    background: #F6F6F6;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_6-right {
+    width: 100%;
+    max-width: 362px;
+    display: grid;
+    gap: 16px;
+}
+
+.title-block_6 {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%
+}
+
+.text-block_6 {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+.button-block_6 {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background: #8EADD5;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: uppercase;
+    border: none;
+    transition: color .3s ease, background-color .3s ease;
+}
+
+.button-block_6:hover {
+    background-color: #F6F6F6;
+    color: #8EADD5;
+}
+
+.button-block_6:active {
+    color: #F6F6F6;
+    background-color: #8EADD5;
+}
