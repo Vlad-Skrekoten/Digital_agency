@@ -44,6 +44,7 @@ footer {
 
 .footer_link {
     width: 100%;
+    max-width: max-content;
     max-width: 190px;
     cursor: pointer;
     color: #272D38;
