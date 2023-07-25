@@ -63,7 +63,7 @@ header {
     display: none;
 }
 
-.lines {
+.line {
     background: #000000;
     width: 40px;
     height: 3px;
