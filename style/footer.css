@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+footer {
+    margin-top: 138px;
+    background: #F6F6F6;
+    display: grid;
+    gap: 110px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    align-items: start;
+    gap: 178px;
+}
+
+.footer_title {
+    margin-top: 105px;
+    list-style: none;
+    display: grid;
+    gap: 32px;
+}
+
+.signature {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.footer_link-bold {
+    cursor: pointer;
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-transform: capitalize;
+}
+
+.footer_link {
+    width: 100%;
+    max-width: 190px;
+    cursor: pointer;
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: capitalize;
+    transition: transform .3s ease, color .3s ease;
+}
+
+.footer_link:hover {
+    color:#8EADD5;
+}
+
+.footer_link:active {
+    transform: scale(0.95);
+}
+
+.footer_link-1 {
+    line-height: 150%;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.block_5 {
+    margin-top: 136px;
+    display: grid;
+    justify-content: center;
+}
+
+.cards-block_5 {
+    margin-top: 39px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    cursor: pointer;
+    border-radius: 20px;
+    background: #F6F6F6;
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    transition: transform .3s ease, color .3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(1.00);
+}
+
+.text-block_5 {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title-block_5 {
+    text-align: center;
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.card_title {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+}
+
+.card_text {
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    max-width: 281px;
+}
