@@ -34,7 +34,7 @@
 .text-block_5 {
     color: #272D38;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: calc(12px + 4 * (100vw / 1440));
     font-weight: 400;
     line-height: 27.5px;
     text-transform: capitalize;
@@ -45,7 +45,7 @@
     text-align: center;
     color: #272D38;
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: calc(32px + 16 * (100vw / 1440));
     font-weight: 700;
     line-height: 100%;
     text-transform: capitalize;
@@ -70,4 +70,14 @@
     text-align: center;
     width: 100%;
     max-width: 281px;
+}
+
+@media (max-width:440px) {
+    .cards-block_5 {
+        grid-template-columns: auto;
+    }
+    
+    .card {
+        margin:5%;
+    }
 }

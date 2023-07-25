@@ -13,6 +13,7 @@ header {
     align-items: center;
     max-width: 1440px;
     width: 100%;
+    padding: 2%;
 }
 
 .head {
@@ -49,4 +50,37 @@ header {
 
 .links:active {
     transform: scale(0.95);
+}
+
+.link_menu {
+    list-style: none;
+    width: 50px;
+    height: 32px;
+    background: #FFFFFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.line {
+    background: #000000;
+    width: 40px;
+    height: 3px;
+    border-radius: 3px;
+}
+
+@media (max-width:440px) {
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .link_menu {
+        display: grid;
+    }
 }

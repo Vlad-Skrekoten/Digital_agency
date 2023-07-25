@@ -34,3 +34,14 @@
 .icons:hover svg path {
     fill: #8EADD5;
 }
+
+@media(max-width:440px) {
+    .icons svg {
+        width: 60px;
+        height: 40px;
+    }
+
+    .icons_block_2 {
+        margin: 5%;
+    }
+}

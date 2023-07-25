@@ -56,7 +56,7 @@ footer {
 }
 
 .footer_link:hover {
-    color:#8EADD5;
+    color: #8EADD5;
 }
 
 .footer_link:active {
@@ -65,4 +65,16 @@ footer {
 
 .footer_link-1 {
     line-height: 150%;
+}
+
+@media (max-width:440px) {
+    footer {
+        margin-top: 128px;
+    }
+
+    .footer {
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0;
+    }
 }

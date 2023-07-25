@@ -22,7 +22,7 @@
 .title-block_6 {
     color: #272D38;
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: calc(32px + 16 * (100vw / 1440));
     font-weight: 700;
     line-height: 100%
 }
@@ -59,4 +59,24 @@
 .button-block_6:active {
     color: #F6F6F6;
     background-color: #8EADD5;
+}
+
+@media (max-width:440px) {
+    .block_6 {
+        grid-template-columns: auto;
+        justify-items: center;
+        margin: 5%;
+    }
+
+    .block_6-right {
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        padding: 60px 0;
+        gap: 32px;
+    }
+
+    .block_6-left {
+        display: none;
+    }
 }

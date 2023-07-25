@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2, max-content);
     align-items: center;
+    justify-content: center;
     gap: 180px;
 }
 
@@ -19,7 +20,7 @@
 .title-block_4 {
     font-family: 'Inter', sans-serif;
     color: #272D38;
-    font-size: 48px;
+    font-size: calc(32px + 16 * (100vw / 1440));
     font-weight: 700;
     line-height: 100%;
     text-transform: capitalize;
@@ -28,7 +29,7 @@
 .text-block_4 {
     color: #272D38;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: calc(12px + 6 * (100vw / 1440));
     font-weight: 400;
     line-height: 27.5px;
     text-transform: capitalize;
@@ -42,4 +43,30 @@
 
 .link-block_4:hover svg path {
     fill: #8EADD5;
+}
+
+@media (max-width:440px) {
+    .block_4 {
+        grid-template-columns: auto;
+        gap: 25px;
+    }
+
+    .block_4-left {
+        text-align: center;
+        display: grid;
+        justify-items: center;
+    }
+
+    .block_4-right {
+        display: grid;
+        justify-content: center;
+    }
+
+    .text-block_4 {
+        line-height: 27.5px;
+    }
+
+    .business {
+        width: 350px;
+    }
 }
