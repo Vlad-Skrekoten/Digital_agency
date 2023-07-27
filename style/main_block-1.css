@@ -86,7 +86,7 @@
     }
 }
 
-@media(max-width:350px) {
+@media(max-width:400px) {
     .block_1-right svg {
         width: 250px;
     }
