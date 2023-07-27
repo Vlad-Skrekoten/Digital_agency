@@ -85,3 +85,9 @@
         width: 380px;
     }
 }
+
+@media(max-width:350px) {
+    .block_1-right svg {
+        width: 250px;
+    }
+}

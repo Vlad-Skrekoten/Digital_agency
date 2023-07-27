@@ -84,3 +84,9 @@
         display: block;
     }
 }
+
+@media (max-width:280px) {
+    .pencil {
+        width: 250px;
+    }
+}
