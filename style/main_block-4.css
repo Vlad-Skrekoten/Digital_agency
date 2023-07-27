@@ -76,3 +76,13 @@
         width: 250px;
     }
 }
+
+@media(min-width:1440px) {
+    .text-block_4 {
+        font-size: 16px;
+    }
+
+    .title-block_4 {
+        font-size: 48px;
+    }
+}

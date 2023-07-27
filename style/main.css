@@ -7,5 +7,12 @@ main {
 .main {
     display: grid;
     justify-content: center;
-    margin: 5%;
+    padding: 2%;
+}
+
+@media (max-width:500px) {
+    .main {
+        padding: 0;
+        margin: 5%;
+    }
 }
