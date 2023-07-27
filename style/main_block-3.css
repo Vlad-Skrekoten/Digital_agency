@@ -85,7 +85,7 @@
     }
 }
 
-@media (max-width:280px) {
+@media (max-width:350px) {
     .pencil {
         width: 250px;
     }

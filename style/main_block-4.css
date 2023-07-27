@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width:280px) {
+@media (max-width:350px) {
     .business {
         width: 250px;
     }
