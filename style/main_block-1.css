@@ -57,9 +57,10 @@
     font-weight: 400;
 }
 
-@media (max-width:440px) {
+@media (max-width:1090px) {
     .block_1 {
         grid-template-columns: auto;
+        text-align: center;
     }
 
     .block_1-left {
@@ -67,6 +68,13 @@
         display: grid;
         justify-items: center;
     }
+}
+
+@media (max-width:440px) {
+    .block_1 {
+        grid-template-columns: auto;
+    }
+
 
     .block_1-right {
         display: grid;

@@ -70,7 +70,8 @@ header {
     border-radius: 3px;
 }
 
-@media (max-width:440px) {
+
+@media (max-width:760px) {
 
     .header {
         justify-content: space-between;

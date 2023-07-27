@@ -68,7 +68,7 @@ footer {
     line-height: 150%;
 }
 
-@media (max-width:440px) {
+@media (max-width:1090px) {
     footer {
         margin-top: 128px;
     }
